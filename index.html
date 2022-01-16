@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- DISCLAIMER
+ 
+Project:  Project 1 - About Me
+Name: Keaton Proctor
+Submitted: 1/16/2022
+ 
+I declare that the following source code was written by me, or provided
+by the instructor for this project. I understand that copying source
+code from any other source, providing source code to another student, 
+or leaving my code on a public web site constitutes cheating.
+I acknowledge that  If I am found in violation of this policy this may result
+in a zero grade, a permanent record on file and possibly immediate failure of the class.
+ 
+Reflection (1-2 paragraphs):  I really enjoyed writing this program. I had a difficult time with the ordered and un-ordered lists
+as far as the <li> open and </li> closed goes. It gets confusing when you have a few of them in your project. Other than
+that I think it was a great starter project to get to understand HTML better. I feel like I could walk someone through 
+how to create something similar if they were starting from scratch.
+-->   
+<html>
+<head>
+	<title>About Keaton Proctor</title>
+	<style>
+		/* place inline styles here-Project 2*/
+	</style>
+	<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+	<main>
+		<header>
+			<h1 class="main-header">About Me</h1>
+            <h1 class="second-header">Keaton Proctor</h1>
+		</header>
+		<img src="/img/profilepicture.jpeg"  align="right" style="margin: 1px 7px 10px 10px;"width="500" height="600" alt="Profile Picture" class="profile-picture" >
+        <hr>
+		<!-- (Project2)When repeating your sections,  create a class for each one and style each section through that class -->
+
+		<section class='info-section'>
+			<h2>Personal Info:</h2>
+			<ul>
+				<li>Bachelors of Science in Software Engineering</li>
+				<li>Alta High school - Class of 2016</li>
+                <li>Currently in my 3rd semester at UVU</li>
+                <li class="icecream">Grasshopper Icecream (Mint Oreo)</li>
+			</ul>
+		</section>
+
+		<section class='books-section'>
+			<h2>My Five Favorite Books:</h2>
+			<ol>
+				<li class="book-1">The Brad Thor Series
+                    <a href="https://bradthor.com/" class="author-1" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">Brad Thor</a></li>
+				<li class="book-2">Think and Grow Rich
+                    <a href="https://www.goodreads.com/book/show/30186948-think-and-grow-rich" class="author-2" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">Napolean Hill</a></li>
+                <li class="book-3">Clean Code
+                    <a href="https://www.audible.com/pd/Clean-Code-Audiobook/B08X7KL3TF?source_code=GO1DH13310082090P1&ds_rl=1262685&ds_rl=1263561&ds_rl=1260658&gclid=CjwKCAiA_omPBhBBEiwAcg7smVWoBG7Kb0Q_Dz13sc5OzC51FSN_6V80oLZ36W-HnxyyaukgbwD6ShoCHPkQAvD_BwE&gclsrc=aw.ds" class="author-3" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">Robert C. Martin</a></li>
+                <li class="book-4">The Vince Flynn Series
+                    <a href="https://www.vinceflynn.com/" class="author-4" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">Vince Flynn</a></li>
+                <li class="book-5">HTML & CSS
+                    <a href="https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189" class="author-5" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">Jon Duckett</a></li>
+			</ol>
+		</section>
+
+        <section class="poem-section">
+            <h2>My Programming Haiku:</h2>
+            <ul class="haiku">
+                I write code all day.<br>
+                I do not know why it works.<br>
+                But hey, it still compiles.
+            </ul>
+            <p>
+                My inspiration for writing this haiku came from a shirt that I own that says just about the same thing as the haiku does. I find it quite funny because as programmers, we all know this is true! ;)
+            </p>
+        </section>
+
+        <section class="personal-interests-section">
+            <h2>My Personal Interests:</h2>
+                <p>
+                    One of my favorite things to do, especially in the summer is go fly-fishing. This isn't just any type of fly-fishing, this is Japanese style fly-fishing called "Tenkara". It is a 
+                    much more simplistic and easy to do. I would say if you are interested in fly-fishing at all, to try Tenkara first. It is very easy to pack and stow away, making it take less time to also 
+                    get setup. My favorite river to fish in Utah currently is American Fork canyon. It is a tight spot, but all the more reason to be more stealth!  
+                </p>
+                <p>
+                    Another thing I really enjoy doing is taking my dogs to run in this field that not a lot of people know about. It is tucked away in a neighborhood, but completely open and very big. They could run
+                    and run all day long if I let them. One of my dogs is a golden retriever and she is a little more on the chunky side, she gets worn out the quickest. My other dog however loves
+                    to stalk the permimeter and make sure we are all safe. She is a Great Pyrenese and it definitely shows. I try to take them running at least 2-3 times in the week, but it makes it hard when 
+                    it is so cold outside.
+                </p>
+                <p>
+                    The last thing that I enjoy doing, and only in the summer time, is to go camping. Me and my wife bought a tent that actually fits to the bed of my truck, so it keeps us off of the ground and a lot
+                    warmer on the cold summer nights in the mountains. We were only able to go a few times last year, but this year I want to try and go almost every weekend! There are so many spots all over Utah to explore.
+                </p>
+        </section>
+
+        <section class="personal-interests-section">
+            <h2>Class and Work Schedule:</h2>
+                <table class="main-table">
+                    <tr>
+                        <th></th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                    <tr>
+                        <td>8:00am</td>
+                        <td rowspan="12" class="col-1">Work</td>
+                        <td rowspan="16" class="col-2">Work</td>
+                        <td rowspan="12" class="col-3">Work</td>
+                        <td rowspan="16" class="col-4">Work</td>
+                        <td rowspan="12" class="col-5">Work</td>
+                    </tr>
+                    <tr>
+                        <td>8:30</td>
+                    </tr>
+                    <tr>
+                        <td>9:00</td>
+                    </tr>
+                    <tr>
+                        <td>9:30</td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td>
+                    </tr>
+                    <tr>
+                        <td>10:30</td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                    </tr>
+                    <tr>
+                        <td>11:30</td>
+                    </tr>
+                    <tr>
+                        <td>12:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                    </tr>
+                    <tr>
+                        <td>1:00</td>
+                    </tr>
+                    <tr>
+                        <td>1:30</td>
+                    </tr>
+                    <tr>
+                        <td>2:00</td>
+                    </tr>
+                    <tr>
+                        <td>2:30</td>
+                        <td rowspan="4" class="cs-2370-table">CS 2370</td>
+                        <td rowspan="4" class="cs-2370-table">CS 2370</td>
+                        <td rowspan="3" class="cs-2550-table">CS 2550</td>
+                    </tr>
+                    <tr>
+                        <td>3:00</td>
+                    </tr>
+                    <tr>
+                        <td>3:30</td>
+                    </tr>
+                    <tr>
+                        <td>4:00</td>
+                    </tr>
+                    <tr>
+                        <td>4:30</td>
+                    </tr>
+                    <tr>
+                        <td>5:00</td>
+                        <td rowspan="4" class="cs-2600-table">CS 2600</td>
+                        <td></td>
+                        <td rowspan="4" class="cs-2600-table">CS 2600</td>
+                    </tr>
+                    <tr>
+                        <td>5:30</td>
+                        <td rowspan="3" class="cs-2420-table">CS 2420</td>
+                    </tr>
+                    <tr>
+                        <td>6:00</td>
+                    </tr>
+                    <tr>
+                        <td>6:30</td>
+                    </tr>
+                    <tr>
+                        <td>7:00pm</td>
+                    </tr>
+                </table>
+        </section>
+
+		<footer>
+			<h1>Here is my footer</h1>
+		</footer>
+	</main>
+
+
+
+
+	<!-- (Project 2) include your javascript file here -->
+	<script src="js/main.js"></script>
+	<script type="text/javascript">
+	//Project 2- you can call javascript functions when page is loaded here.
+    //helloWorld();  //function contained in js/main.js file
+	</script>
+</body>
+</html>

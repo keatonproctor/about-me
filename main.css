@@ -1,0 +1,107 @@
+body {
+    background-image: url(./img/codingpicture.jpeg);
+    background-repeat:round;
+    border-spacing: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+/* .profile-picture {
+    display: block;
+    margin-left:auto;
+     
+} */
+
+.main-header {
+    text-align: center;
+}
+
+.second-header {
+    text-align: center;
+    color: blue;
+}
+
+.icecream {
+    background-image: linear-gradient(to bottom left, black, green);
+    color: greenyellow;
+    background-size: 253px ;
+    background-repeat: no-repeat;
+}
+
+.book-1 {
+    font-style: italic;
+}
+.author-1 {
+    font-style: normal;
+}
+
+.book-2 {
+    font-style: italic;
+}
+.author-2 {
+    font-style: normal;
+}
+
+.book-3 {
+    font-style: italic;
+}
+.author-3 {
+    font-style: normal;
+}
+
+.book-4 {
+    font-style: italic;
+}
+.author-4 {
+    font-style: normal;
+}
+
+.book-5 {
+    font-style: italic;
+}
+.author-5 {
+    font-style: normal;
+}
+
+
+.haiku {
+    color: red;
+}
+
+.main-table, th, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 3px 3px 10px;
+    text-align: center;
+    background-color: antiquewhite;
+    table-layout: fixed;
+}
+
+
+.col-1 {
+    background-color: rgb(201, 15, 201);
+}
+.col-2 {
+    background-color: rgb(201, 15, 201);
+}
+.col-3 {
+    background-color: rgb(201, 15, 201);
+}
+.col-4 {
+    background-color: rgb(201, 15, 201);
+}
+.col-5 {
+    background-color: rgb(201, 15, 201);
+}
+
+.cs-2370-table {
+    background-color: red;
+}
+.cs-2600-table {
+    background-color: rgb(0, 168, 198);
+}
+.cs-2420-table {
+    background-color: rgb(7, 148, 0);
+}
+.cs-2550-table {
+    background-color: rgb(114, 114, 114);
+}
